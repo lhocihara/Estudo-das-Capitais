@@ -1,0 +1,104 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Estudo de Capitais - Home</title>
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="css/master.css" media="screen,projection" />
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+	<!--		<link type="text/css" rel="stylesheet" href="css/grid.css"  media="screen,projection"/>-->
+
+	<style>
+		.box-content {
+			height: auto;
+		}
+		
+		.box-msg-to-user,
+		.box-content-start {
+			margin-top: 3%;
+		}
+		
+		.msg-to-user {
+			background-color: azure;
+			padding: 10px 20px 10px 20px;
+			border-radius: 30px 30px 30px 0px;
+		}
+		
+		#content-start {
+			border-radius: 30px;
+		}
+		
+		.box-msg-to-user:after {
+			content: "";
+			display: inline-block;
+			vertical-align: middle;
+			margin-right: 10px;
+			width: 0;
+			height: 0;
+			border-top: 15px solid transparent;
+			border-bottom: 15px solid transparent;
+			border-right: 15px solid azure;
+			transform: rotate(45deg);
+			margin-top: -35px;
+			margin-left: -2px;
+		}
+
+	</style>
+
+	<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/script-progress-bar.js"></script>
+</head>
+<!-- Creator: CorelDRAW -->
+
+<body>
+	<div id="box-menu">
+		<ul class="menu row">
+			<li class="col s1 item-menu master-dropdown">
+				<a id="menu-btn" href="javascript:void(0)" class="waves-effect btn red">Menu</a>
+				<div class="master-dropdown-content">
+					<a class="link blue-grey darken-1" style="color:white">Home</a>
+					<a class="link" href="project.html">O Projeto</a>
+					<a class="link" href="group.html">O Grupo</a>
+				</div>
+			</li>
+			<li class="col s10 item-menu master-dropdown center">
+				<img id="logo" src="img/logo.jpeg" />
+			</li>
+		</ul>
+	</div>
+	<div id="box-page">
+		<div id="content-title" class="row center" style="margin-bottom:0">
+			<div id="title-page" class="medium-words">Home</div>
+		</div>
+		<div id="content-page-geral" style="max-height: calc(100%-77px);	padding: 10px; display: flex; justify-content:center;">
+			<div id="box-content" class="col" style=" background:transparent;">
+				<div class="box-msg-to-user">
+					<div class="msg-to-user">
+						<span class="medium-words">Seja bem vindo(a) ao Estudo de Capitais!</span>
+					</div>
+				</div>
+				<div class="box-msg-to-user">
+					<div class="msg-to-user">
+						<p class="small-words">
+							Este é um teste sobre as capitais dos estados brasileiros, <b style="color:darkred">clique</b> nos estados do mapa, <b style="color:darkred">selecione</b> uma das opções e <b style="color:darkred">descubra</b> se você acertou a capital. Você só terá <b style="color:darkred">150 segundos</b> para responder todo o mapa!
+						</p>
+					</div>
+				</div>
+				<div class="box-msg-to-user">
+					<div class="msg-to-user">
+						<span class="medium-words" style=" color:green">Boa sorte!</span> <i style=" color:darkgold">Team ISWE</i>
+					</div>
+				</div>
+
+				<div class="box-content-start">
+					<div id="content-start" style="text-align:center;">
+						<a id="start-btn" class="waves-effect waves-light green btn" style="width: 300px" href="test.html">COMEÇAR TESTE!</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
